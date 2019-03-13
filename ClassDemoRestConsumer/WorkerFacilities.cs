@@ -125,7 +125,7 @@ namespace ClassDemoRestConsumer
                     Console.WriteLine("FacilityID\tHotelID\tFacility navn");
                     foreach (var facility in facilityLists)
                     {
-                        Console.WriteLine($"{facility.FacilityID}\t{facility.HotelID}\t{facility.FacilityName}");
+                        Console.WriteLine($"{facility.FacilityID}\t \t{facility.HotelID}\t{facility.FacilityName}");
                     }
 
                     Console.WriteLine();
@@ -167,7 +167,7 @@ namespace ClassDemoRestConsumer
                     Console.WriteLine("FacilityID\tHotelID\tFacility navn");
                     foreach (var facility in facilityListe)
                     {
-                        Console.WriteLine($"{facility.FacilityID}\t{facility.HotelID}\t{facility.FacilityName}");
+                        Console.WriteLine($"{facility.FacilityID}\t \t{facility.HotelID}\t{facility.FacilityName}");
                     }
 
                     Console.WriteLine();
